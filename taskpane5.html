@@ -27,7 +27,7 @@ function newSite() {
     Office.onReady((info) => {
         // Check that we loaded into Excel
         if (info.host === Office.HostType.Excel) {
-            let siteAddress = "https://google.com";
+            let siteAddress = "https://www.google.com";
             document.getElementById('myIframe').src = siteAddress;
             document.getElementById("helloButton").onclick = sayHello;
         }
